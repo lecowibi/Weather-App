@@ -16,16 +16,20 @@ body {
     padding: 10px;
     font-size: 16px;
     width: 200px;
+    border:none;
+    outline: none;
   }
   
   button {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
+    background-color: rgb(206, 255, 133);
+    border: 1px solid grey;
   }
   
   .card {
-    background-color: white;
+    background: linear-gradient(180deg ,rgba(101, 206, 238, 0.74),rgba(230, 198, 130, 0.795)) ;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
